@@ -30,6 +30,16 @@
 <!-- Spacer to prevent content from hiding behind the fixed navbar -->
 <div style="height: 60px;"></div>
 
+<!-- Style override to completely remove the default Cayman gradient header banner -->
+<style>
+  .page-header {
+    display: none !important;
+  }
+  .main-content {
+    padding-top: 2rem !important;
+  }
+</style>
+
 ## <a id="about"></a>Executive Summary
 
 ... [your about text] ...
