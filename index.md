@@ -120,11 +120,11 @@
 
 <div id="contact" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
     
-    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 40px; font-weight: 700; border-bottom: none;">Connect with me</h2>
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 40px; font-weight: 700; border-bottom: none;">Get In Touch</h2>
     
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: nowrap; width: 100%; max-width: 68rem; margin: 0 auto; padding: 0 20px; box-sizing: border-box;">
         
-        <a href="https://linkedin.com/in/YOUR-LINKEDIN-URL" target="_blank" class="contact-card">
+        <a href="https://linkedin.com/in/richardspiers" target="_blank" class="contact-card">
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <div style="color: #0077b5; margin-bottom: 15px; display: flex; justify-content: center;">
                     <svg height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -135,26 +135,26 @@
             <div class="contact-btn" style="width: 80%; max-width: 200px;">View Profile</div>
         </a>
 
-        <a href="mailto:your.email@example.com" class="contact-card">
+        <a href="mailto:your.zeterlore@hotmail.com" class="contact-card">
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <div style="color: #ea4335; margin-bottom: 15px; display: flex; justify-content: center;">
                     <svg height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
                 </div>
                 <h3 style="font-size: 1.3rem; color: #24292e; margin: 0 0 10px 0; font-weight: 600;">Email</h3>
-                <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Drop a message directly to my inbox. Best route for direct inquiries or technical talk.</p>
+                <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Send a message directly to my inbox.</p>
             </div>
             <div class="contact-btn" style="width: 80%; max-width: 200px;">Send Message</div>
         </a>
 
-        <a href="https://YOUR-USERNAME.itch.io" target="_blank" class="contact-card">
+        <a href="https://radsy.itch.io" target="_blank" class="contact-card">
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <div style="color: #fa5c5c; margin-bottom: 15px; display: flex; justify-content: center;">
                     <svg height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M3.522 4.417c-.772.046-1.464.444-1.87 1.096-.407.652-.486 1.453-.217 2.168l1.451 3.86c-1.127.42-1.884 1.507-1.886 2.715v4.51c.002 1.782 1.445 3.223 3.227 3.224h15.546c1.782-.001 3.225-1.442 3.227-3.224v-4.51c-.002-1.208-.759-2.295-1.886-2.715l1.451-3.86c.269-.715.19-1.516-.217-2.168-.406-.652-1.098-1.05-1.87-1.096zm.224 1.76h16.508c.241.014.457.139.584.343.128.204.153.454.068.68l-1.353 3.593c-.097.256-.343.424-.617.424h-13.872c-.274 0-.52-.168-.617-.424l-1.353-3.593c-.085-.226-.06-.476.068-.68.127-.204.343-.329.584-.343zm1.613 6.945c.42-.002.82.165 1.116.463l1.523 1.53 1.525-1.53c.594-.6 1.637-.6 2.23 0l1.525 1.53 1.524-1.53c.594-.6 1.637-.6 2.231 0l1.524 1.53 1.524-1.53c.63-.615 1.698-.573 2.278.09l.487.558c.267.306.413.698.412 1.103v2.856c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-2.394l-.736-.843c-.144-.165-.41-.165-.554 0l-1.764 1.77c-.594.6-1.636.6-2.23 0l-1.524-1.53-1.524 1.53c-.594.6-1.637.6-2.23 0l-1.525-1.53-1.524 1.53c-.594.6-1.637.6-2.23 0l-1.765-1.77c-.143-.165-.409-.165-.553 0l-.736.843v2.394c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-2.856c0-.405.146-.797.412-1.103l.488-.558c.28-.32.682-.501 1.105-.494z"/></svg>
                 </div>
                 <h3 style="font-size: 1.3rem; color: #24292e; margin: 0 0 10px 0; font-weight: 600;">itch.io</h3>
-                <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Explore builds and tech sandboxes. Here you can test my optimization tools live.</p>
+                <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Play the games I contributed to in the Epic MegaJams!</p>
             </div>
-            <div class="contact-btn" style="width: 80%; max-width: 200px;">Open Sandbox</div>
+            <div class="contact-btn" style="width: 80%; max-width: 200px;">Epic MegaJam Entries</div>
         </a>
 
     </div>
