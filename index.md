@@ -40,6 +40,47 @@
     margin-top: 0 !important;
     max-width: 64rem;
   }
+
+/* Contact Card Styling & Animations */
+  .contact-card {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 30px;
+    width: 45%;
+    min-width: 280px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* The Lift and Highlight Effect */
+  .contact-card:hover {
+    transform: translateY(-8px);
+    border-color: #0366d6; /* Highlights the border with a clean blue */
+    box-shadow: 0 12px 24px rgba(3, 102, 214, 0.15); /* Soft glowing shadow */
+  }
+
+  /* Interactive Button inside the Card */
+  .contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #24292e;
+    color: #ffffff !important;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+  
+  .contact-card:hover .contact-btn {
+    background-color: #0366d6; /* Button lights up blue when card is hovered */
+  }
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
@@ -75,6 +116,39 @@
 
 ... [your education text] ...
 
-## <a id="contact"></a>Contact
+<!-- Final Section: Connect With Me -->
+<div id="contact" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 40px; font-weight: 700; border-bottom: none;">Connect with me</h2>
+    
+    <!-- Cards Flex Box Row -->
+    <div style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 54rem; margin: 0 auto; padding: 0 20px; box-sizing: border-box;">
+        
+        <!-- Card 1: LinkedIn -->
+        <a href="https://linkedin.com/in/YOUR-LINKEDIN-URL" target="_blank" class="contact-card">
+            <div>
+                <!-- Iconography -->
+                <div style="color: #0077b5; margin-bottom: 15px;">
+                    <svg height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <h3 style="font-size: 1.3rem; color: #24292e; margin: 0 0 10px 0; font-weight: 600;">LinkedIn</h3>
+                <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Let's connect professionally. Reach out here for industry networking, core engineering discussions, or formal opportunities.</p>
+            </div>
+            <div class="contact-btn">View Profile</div>
+        </a>
 
-... [your contact details] ...
+        <!-- Card 2: Email -->
+        <a href="mailto:your.email@example.com" class="contact-card">
+            <div>
+                <!-- Iconography -->
+                <div style="color: #ea4335; margin-bottom: 15px;">
+                    <svg height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                </div>
+                <h3 style="font-size: 1.3rem; color: #24292e; margin: 0 0 10px 0; font-weight: 600;">Email</h3>
+                <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Drop a message directly to my inbox. Best route for technical inquiries or arranging consultation calls.</p>
+            </div>
+            <div class="contact-btn">Send Message</div>
+        </a>
+
+    </div>
+</div>
