@@ -27,30 +27,30 @@
     </div>
 </div>
 
-<!-- Spacer to prevent content from hiding behind the fixed navbar -->
-<div style="height: 60px;"></div>
-
-<!-- Style override to completely remove the default Cayman gradient header banner -->
 <style>
+  body {
+    margin-top: 48px !important; /* Forces the body to start exactly where the navbar ends */
+    padding-top: 0 !important;
+  }
   .page-header {
     display: none !important;
   }
   .main-content {
-    padding-top: 2rem !important;
+    padding-top: 0 !important; /* Removes Cayman's internal text gaps */
+    max-width: 64rem;
   }
 </style>
 
-<!-- Full Screen About Me Container -->
-<div id="about" style="position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; width: 100vw; min-height: calc(100vh - 50px); background-color: #f8f9fa; display: flex; align-items: center; box-sizing: border-box; padding: 60px 0;">
+<!-- Full Screen About Me Container (Flushed to Navbar) -->
+<div id="about" style="position: relative; left: 50%; right: 50%; margin-top: 0; margin-left: -50vw; margin-right: -50vw; width: 100vw; min-height: calc(100vh - 48px); background-color: #f8f9fa; display: flex; align-items: center; box-sizing: border-box; padding: 40px 0; z-index: 10;">
     
-    <!-- Content Aligned wrapper (keeps text readable, not stretched awkwardly to the far monitor edges) -->
+    <!-- Content Aligned wrapper -->
     <div style="max-width: 54rem; margin: 0 auto; padding: 0 40px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
         
-        <h1 style="font-size: 2.8rem; color: #24292e; margin-bottom: 10px; border-bottom: none; font-weight: 700;">Rad Spiers</h1>
+        <h1 style="font-size: 2.8rem; color: #24292e; margin-top: 0; margin-bottom: 10px; border-bottom: none; font-weight: 700;">Rad Spiers</h1>
         <p style="font-size: 1.4rem; color: #586069; margin-top: 0; font-weight: 400; letter-spacing: -0.5px;">Senior Systems & Infrastructure Engineer</p>
         
         <div style="font-size: 1.15rem; line-height: 1.7; color: #2f363d; margin-top: 30px;">
-            <!-- WE WILL PUT YOUR SPECIFIC ABOUT ME BULLETS / PARAGRAPHS HERE -->
             <p>AAA Software Engineer with over a decade of experience specializing in core engine systems, automated build infrastructure, and performance optimization. Proven track record of delivering stable pipelines and decoupling complex software architectures within high-stakes studio environments.</p>
             <p>Focused on engineering pragmatism, maintainable systems, and cross-department tool collaboration.</p>
         </div>
