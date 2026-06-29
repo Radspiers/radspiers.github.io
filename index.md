@@ -42,7 +42,7 @@
   }
 
 /* Contact Card Styling & Animations */
-  .contact-card {
+.contact-card {
     background: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
@@ -55,6 +55,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center; /* Centers the title and description text */
+    align-items: center; /* Centers the icon block and button horizontally */
   }
   
   /* The Lift and Highlight Effect */
@@ -126,28 +128,28 @@
         
         <!-- Card 1: LinkedIn -->
         <a href="https://linkedin.com/in/YOUR-LINKEDIN-URL" target="_blank" class="contact-card">
-            <div>
-                <!-- Iconography -->
-                <div style="color: #0077b5; margin-bottom: 15px;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <!-- Iconography Centered -->
+                <div style="color: #0077b5; margin-bottom: 15px; display: flex; justify-content: center;">
                     <svg height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </div>
                 <h3 style="font-size: 1.3rem; color: #24292e; margin: 0 0 10px 0; font-weight: 600;">LinkedIn</h3>
                 <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Let's connect professionally. Reach out here for industry networking, core engineering discussions, or formal opportunities.</p>
             </div>
-            <div class="contact-btn">View Profile</div>
+            <div class="contact-btn" style="width: 80%; max-width: 200px;">View Profile</div>
         </a>
 
         <!-- Card 2: Email -->
         <a href="mailto:your.email@example.com" class="contact-card">
-            <div>
-                <!-- Iconography -->
-                <div style="color: #ea4335; margin-bottom: 15px;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <!-- Iconography Centered -->
+                <div style="color: #ea4335; margin-bottom: 15px; display: flex; justify-content: center;">
                     <svg height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
                 </div>
                 <h3 style="font-size: 1.3rem; color: #24292e; margin: 0 0 10px 0; font-weight: 600;">Email</h3>
                 <p style="font-size: 0.95rem; color: #586069; line-height: 1.5; margin: 0;">Drop a message directly to my inbox. Best route for technical inquiries or arranging consultation calls.</p>
             </div>
-            <div class="contact-btn">Send Message</div>
+            <div class="contact-btn" style="width: 80%; max-width: 200px;">Send Message</div>
         </a>
 
     </div>
