@@ -83,6 +83,11 @@
   .contact-card:hover .contact-btn {
     background-color: #0366d6; /* Button lights up blue when card is hovered */
   }
+
+/* Completely hide the default Cayman theme footer text */
+  .site-footer {
+    display: none !important;
+  }
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
@@ -159,3 +164,8 @@
 
     </div>
 </div>
+
+<!-- Custom Professional Footer -->
+<footer style="padding: 40px 0 20px 0; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 0.9rem; color: #586069;">
+    <p>© 2026 Richard Spiers. All rights reserved.</p>
+</footer>
