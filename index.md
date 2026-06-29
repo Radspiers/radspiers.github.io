@@ -43,7 +43,7 @@
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
-<div id="about" style="position: relative; left: 50%; right: 50%; margin-top: -20px; margin-left: -50vw; margin-right: -50vw; width: 100vw; min-height: 100vh; background-color: #f8f9fa; display: flex; align-items: center; box-sizing: border-box; padding: 80px 0 40px 0; z-index: 10;">
+<div id="about" style="position: relative; left: 50%; right: 50%; margin-top: -20px; margin-left: -50vw; margin-right: -50vw; width: 100vw; min-height: 100vh; background-color: #7242f5; display: flex; align-items: center; box-sizing: border-box; padding: 80px 0 40px 0; z-index: 10;">
     
     <!-- Content Aligned wrapper -->
     <div style="max-width: 54rem; margin: 0 auto; padding: 0 40px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
