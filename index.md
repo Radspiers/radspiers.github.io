@@ -1,4 +1,3 @@
-Markdown
 ---
 
 <div style="position: sticky; top: 0; background-color: #24292e; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; z-index: 1000; font-family: sans-serif; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
