@@ -28,21 +28,22 @@
 </div>
 
 <style>
-  body {
-    margin-top: 48px !important; /* Forces the body to start exactly where the navbar ends */
-    padding-top: 0 !important;
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
   }
   .page-header {
     display: none !important;
   }
   .main-content {
-    padding-top: 0 !important; /* Removes Cayman's internal text gaps */
+    padding-top: 0 !important;
+    margin-top: 0 !important;
     max-width: 64rem;
   }
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
-<div id="about" style="position: relative; left: 50%; right: 50%; margin-top: 0; margin-left: -50vw; margin-right: -50vw; width: 100vw; min-height: calc(100vh - 48px); background-color: #f8f9fa; display: flex; align-items: center; box-sizing: border-box; padding: 40px 0; z-index: 10;">
+<div id="about" style="position: relative; left: 50%; right: 50%; margin-top: -20px; margin-left: -50vw; margin-right: -50vw; width: 100vw; min-height: 100vh; background-color: #f8f9fa; display: flex; align-items: center; box-sizing: border-box; padding: 80px 0 40px 0; z-index: 10;">
     
     <!-- Content Aligned wrapper -->
     <div style="max-width: 54rem; margin: 0 auto; padding: 0 40px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
