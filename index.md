@@ -42,6 +42,67 @@
     max-width: 64rem;
   }
 
+/* Game Jam Grid & Video Layout */
+  .jam-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .jam-card {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    width: 47%; /* Tiling 2-across beautifully on standard screens */
+    min-width: 320px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+
+  /* Video Thumbnail Container with Hover Effects */
+  .video-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .video-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transition: background 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-container:hover .video-overlay {
+    background: rgba(0, 0, 0, 0.4); /* Dims slightly on hover to highlight play icon */
+  }
+
+  /* Tag Pill Badges at the bottom */
+  .tech-tag {
+    display: inline-block;
+    background-color: #f1f8ff;
+    color: #0366d6;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 4px;
+  }    
+
 /* Education Card Layout & Hover States */
   .edu-card {
     background: #ffffff;
@@ -163,6 +224,58 @@
 ## <a id="history"></a>AAA Production History
 
 ... [your history text] ...
+
+<div id="game-jams" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
+    
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-weight: 700; border-bottom: none;">Game Jam Entries & Prototypes</h2>
+    
+    <div class="jam-grid">
+        
+        <div class="jam-card">
+            
+            <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="video-container" style="background-image: url('https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg'); text-decoration: none !important;">
+                <div class="video-overlay">
+                    
+                    <div style="background: rgba(23, 23, 23, 0.9); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                    
+                    <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); color: #ffffff; padding: 4px 10px; font-size: 0.75rem; font-weight: 600; border-radius: 4px; display: flex; align-items: center; gap: 6px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="color: #ff0000;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        Watch on YouTube
+                    </div>
+
+                </div>
+            </a>
+            
+            <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
+                
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Project Neon Void</h3>
+                
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Solo Developer | Ludum Dare 2026</div>
+                
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Cyberpunk Fast-Paced Roguelike</div>
+                
+                <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
+                    <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
+                    <li>Optimized particle simulation arrays to maintain 60 FPS overhead boundaries on basic mobile targets.</li>
+                    <li>Integrated real-time system tracking data directly using itch.io API frameworks.</li>
+                </ul>
+                
+                <hr style="border: 0; border-top: 1px solid #e1e4e8; margin: 0 0 15px 0;">
+                
+                <div style="margin: 0 -4px; display: flex; flex-wrap: wrap;">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">Unity Engine</span>
+                    <span class="tech-tag">HLSL Shaders</span>
+                    <span class="tech-tag">itch.io API</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
 
 <!-- Section: Education & Credentials -->
 <div id="education" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
