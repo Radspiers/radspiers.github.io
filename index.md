@@ -247,13 +247,13 @@
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 
                 <!-- Game Title Bold -->
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Project Neon Void</h3>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Time Janitors</h3>
                 
                 <!-- Job Title | Release Year -->
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Solo Developer | Ludum Dare 2026</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | December 2020</div>
                 
                 <!-- Game Genre -->
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Cyberpunk Fast-Paced Roguelike</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">FPS Time Travel Puzzle Adventure</div>
                 
                 <!-- Achievements -->
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
