@@ -54,7 +54,7 @@
     box-sizing: border-box;
   }
 
-  /* Game Jam Card Structure */
+/* Game Jam Card Structure */
   .jam-card {
     background: #ffffff;
     border: 1px solid #e1e4e8;
@@ -66,10 +66,10 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     
-    /* THE STRETCH FIX */
-    flex: 1 1 30%;             /* Allows cards to grow and claim an even 1/3rd of the space */
-    max-width: 400px;          /* Prevents them from getting too aggressively wide on gigantic monitors */
-    min-width: 300px;          /* The threshold limit before a card drops down to the next row */
+    /* ADJUSTED MATH TO FORCE SINGLE-ROW DESKTOP ALIGNMENT */
+    flex: 1 1 30%;             
+    max-width: 380px;          
+    min-width: 240px;          /* Lowered from 300px to prevent the theme container from wrapping it */
   }
 
   /* Consistent Hover Elevate State */
