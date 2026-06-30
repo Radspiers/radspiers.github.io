@@ -234,7 +234,7 @@
         
         <div class="jam-card">
             
-            <a href="https://youtu.be/y_-oG3KM9LY?si=eMGnc9GZdfDbhvA9" target="_blank" class="video-container" style="background-image: url('https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg'); text-decoration: none !important;">
+            <a href="https://youtu.be/y_-oG3KM9LY?si=eMGnc9GZdfDbhvA9" target="_blank" class="video-container" style="background-image: url('https://img.youtube.com/vi/y_-oG3KM9LY/maxresdefault.jpg'); text-decoration: none !important;">
                 <div class="video-overlay">
                     
                     <div style="background: rgba(23, 23, 23, 0.9); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
