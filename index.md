@@ -46,11 +46,13 @@
   }
 
 /* Force the about section to flush with the absolute top of the window canvas */
-  #about {
-    margin-top: 0 !important;
-    position: relative;
-    top: 0;
-  }
+#about {
+    /* THE INDEPENDENT LAYOUT FORCING ELEMENT */
+    position: absolute !important;
+    top: 48px !important; /* Locks it precisely to the bottom edge of your fixed navbar */
+    left: 0 !important;
+    width: 100% !important;
+}
       
   #about h1 {
     margin-top: 0 !important;
