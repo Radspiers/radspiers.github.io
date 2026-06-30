@@ -267,10 +267,9 @@
                 
                 <!-- Technology Tags Footer -->
                 <div style="margin: 0 -4px; display: flex; flex-wrap: wrap;">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">Unity Engine</span>
-                    <span class="tech-tag">HLSL Shaders</span>
-                    <span class="tech-tag">itch.io API</span>
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">Unreal Engine</span>
+                    <span class="tech-tag">Perforce</span>
                 </div>
 
             </div>
