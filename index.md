@@ -28,17 +28,19 @@
 </div>
 
 <style>
+/* Wipe out top-level theme margins so sections can go edge-to-edge */
   html, body {
     margin: 0 !important;
     padding: 0 !important;
+    width: 100% !important;
+    overflow-x: hidden; /* Safety lock to prevent horizontal scroll bars */
   }
-  .page-header {
-    display: none !important;
-  }
-  .main-content {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    max-width: 64rem;
+
+  /* If your template uses a default Jekyll layout container wrapper, unclamp it */
+  .container-lg, .wrapper, main {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
 /* Game Jam Strict Wide Grid */
@@ -195,14 +197,14 @@
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
-<div id="about" style="width: 100%; min-height: 100vh; background-color: #7242f5; display: flex; align-items: center; box-sizing: border-box; padding: 80px 0 40px 0;">
+<div id="about" style="width: 100%; background-color: #7242f5; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 80px 0; margin: 0;">
     
-    <div style="max-width: 54rem; margin: 0 auto; padding: 0 40px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; width: 100%;">
+    <div style="width: 100%; max-width: 54rem; padding: 0 40px; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
         
-        <h1 style="font-size: 2.8rem; color: #ffffff; margin-top: 0; margin-bottom: 10px; border-bottom: none; font-weight: 700;">Rad Spiers</h1>
-        <p style="font-size: 1.4rem; color: #e1e4e8; margin-top: 0; font-weight: 400; letter-spacing: -0.5px;">Senior Systems & Infrastructure Engineer</p>
+        <h1 style="font-size: 2.8rem; color: #24292e; margin-top: 0; margin-bottom: 10px; border-bottom: none; font-weight: 700;">Rad Spiers</h1>
+        <p style="font-size: 1.4rem; color: #586069; margin-top: 0; font-weight: 400; letter-spacing: -0.5px;">Senior Systems & Infrastructure Engineer</p>
         
-        <div style="font-size: 1.15rem; line-height: 1.7; color: #ffffff; margin-top: 30px;">
+        <div style="font-size: 1.15rem; line-height: 1.7; color: #2f363d; margin-top: 30px;">
             <p>AAA Software Engineer with over a decade of experience specializing in core engine systems, automated build infrastructure, and performance optimization. Proven track record of delivering stable pipelines and decoupling complex software architectures within high-stakes studio environments.</p>
             <p>Focused on engineering pragmatism, maintainable systems, and cross-department tool collaboration.</p>
         </div>
