@@ -42,23 +42,16 @@
     max-width: 64rem;
   }
 
-  /* Game Jam Card Layout & Consistent Hover States */
+/* Game Jam Grid Configuration */
   .jam-grid {
-    display: grid;
-    /* Dynamically handles small screens beautifully */
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px; /* Dropped from 30px to maximize internal card width space */
-    max-width: 82rem; /* Opened up from 68rem to give the 3 cards complete widescreen real estate */
+    display: flex;
+    gap: 24px;                  /* Clean spacing gap between cards */
+    justify-content: center;    /* Center the line of items gracefully */
+    flex-wrap: wrap;            /* Safely wraps to a new row on mobile phones */
+    max-width: 82rem;           /* Expanded boundary to give 3 cards maximum wide real estate */
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
-  }
-
-  @media (min-width: 992px) {
-    .jam-grid {
-      /* Strictly enforce maximum of 3 columns across on desktop monitors */
-      grid-template-columns: repeat(3, 1fr);
-    }
   }
 
   /* Game Jam Card Structure */
@@ -72,29 +65,32 @@
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    cursor: pointer;
-    width: 100%; /* Grid now controls width perfectly */
+    
+    /* THE STRETCH FIX */
+    flex: 1 1 30%;             /* Allows cards to grow and claim an even 1/3rd of the space */
+    max-width: 400px;          /* Prevents them from getting too aggressively wide on gigantic monitors */
+    min-width: 300px;          /* The threshold limit before a card drops down to the next row */
   }
 
-  /* The Card elevation animation on mouse hover */
+  /* Consistent Hover Elevate State */
   .jam-card:hover {
     transform: translateY(-6px);
-    border-color: #ff0000; /* Subtle YouTube brand red border highlight on hover */
-    box-shadow: 0 12px 20px rgba(255, 0, 0, 0.08);
+    border-color: #ff0000;      /* Subtle YouTube brand red accent */
+    box-shadow: 0 12px 24px rgba(255, 0, 0, 0.08);
   }
 
-  /* Video Iframe Container to hold strict 16:9 widescreen orientation */
+  /* Video Frame Container aspect ratio configuration */
   .video-frame-holder {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
-    background: #000000;
+    aspect-ratio: 16 / 9;      /* Maintains a native YouTube widescreen shape */
   }
 
   .video-frame-holder iframe {
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    border: none;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0;
   }
 
   .tech-tag {
