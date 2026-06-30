@@ -10,7 +10,7 @@
         <a href="#about" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">About Me</a>
         <a href="#skills" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Skills</a>
         <a href="#projects" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Personal Projects</a>
-        <a href="#game-jams" style="color: #ffffff; text-decoration: none; transition: color 0.2s;">Game Jams</a>
+        <a href="#game-jams" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Game Jams</a>
         <a href="#education" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Education</a>
         <a href="#contact" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Contact</a>
     </div>
