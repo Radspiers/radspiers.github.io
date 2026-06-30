@@ -45,6 +45,19 @@
     display: block !important; 
   }
 
+/* Completely hide automatic markdown header link icons on hover */
+h1 a, h2 a, h3 a, h4 a,
+  h1 a:hover, h2 a:hover, h3 a:hover,
+  [id^="anchor"], .anchor-link {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    position: absolute !important;
+    pointer-events: none !important;
+  }
+
 /* Force the about section to flush with the absolute top of the window canvas */
 #about {
     /* Put it back in the normal document flow */
@@ -230,18 +243,6 @@
     display: none !important;
   }
 
-/* Completely hide automatic markdown header link icons on hover */
-h1 a, h2 a, h3 a, h4 a,
-  h1 a:hover, h2 a:hover, h3 a:hover,
-  [id^="anchor"], .anchor-link {
-    display: none !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-    width: 0 !important;
-    height: 0 !important;
-    position: absolute !important;
-    pointer-events: none !important;
-  }
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
