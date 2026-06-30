@@ -36,6 +36,12 @@
     overflow-x: hidden; /* Safety lock to prevent horizontal scroll bars */
   }
 
+body, main, .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   /* If your template uses a default Jekyll layout container wrapper, unclamp it */
   .container-lg, .wrapper, main {
     max-width: none !important;
@@ -43,6 +49,10 @@
     margin: 0 !important;
   }
 
+#about {
+    margin-top: 0 !important;
+  }
+    
 #about h1 {
     margin-top: 0 !important;
     padding-top: 0 !important;
