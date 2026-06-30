@@ -275,6 +275,52 @@
             </div>
         </div>
 
+        <!-- Game Entry 2 (Now a fully reactive Hover Box) -->
+        <div class="jam-card">
+            
+            <!-- In-Place YouTube Player Wrapper -->
+            <div class="video-frame-holder">
+                <!-- YouTube natively handles the Red Play, Share, and Watch Later Clock overlay widgets here -->
+                <iframe 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1" 
+                    title="Gameplay Showcase"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+            <!-- Metadata & Content Wrapper -->
+            <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
+                
+                <!-- Game Title Bold -->
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Malware</h3>
+                
+                <!-- Job Title | Release Year -->
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | August/September 2021 </div>
+                
+                <!-- Game Genre -->
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">2D Puzzle Platformer</div>
+                
+                <!-- Achievements -->
+                <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
+                    <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
+                    <li>Optimized particle simulation arrays to maintain 60 FPS overhead boundaries on basic mobile targets.</li>
+                    <li>Integrated real-time system tracking data directly using itch.io API frameworks.</li>
+                </ul>
+                
+                <!-- Divider Line -->
+                <hr style="border: 0; border-top: 1px solid #e1e4e8; margin: 0 0 15px 0;">
+                
+                <!-- Technology Tags Footer -->
+                <div style="margin: 0 -4px; display: flex; flex-wrap: wrap;">
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">Unreal Engine</span>
+                    <span class="tech-tag">Perforce</span>
+                </div>
+
+            </div>
+        </div>
+
     </div>
 </div>
 
