@@ -1,4 +1,3 @@
----
 <!-- Full Width Fixed Navigation Bar -->
 <div style="position: fixed; top: 0; left: 0; width: 100vw; background-color: #24292e; color: #fff; padding: 12px 40px; display: flex; justify-content: space-between; align-items: center; z-index: 9999; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; box-shadow: 0 2px 10px rgba(0,0,0,0.35); box-sizing: border-box;">
     
