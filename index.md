@@ -84,8 +84,12 @@
     
     /* ---> ADJUSTED WIDER CONTAINER BOUNDARY HERE <--- */
     max-width: 1350px;                     /* Bumped up from 1200px to make each individual card wider */
-    
     width: 100%;
+
+    /* ---> ADD THESE TWO LINES TO CENTER EVERYTHING <--- */
+    justify-content: center;   /* Centers the entire grid container horizontally */
+    justify-items: center;     /* Centers each individual card inside its grid column track */
+      
     margin: 0 auto;                        /* Keeps the entire row perfectly centered on screen */
     box-sizing: border-box;
   }
