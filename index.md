@@ -54,18 +54,23 @@
     box-sizing: border-box;
   }
 
-  .jam-card {
+.jam-card {
     background: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
-    width: 47%;
-    min-width: 320px;
+    
+    /* SMART GRID CALCULATION */
+    flex: 1 1 30%; /* Aims for roughly ~30% width, allowing 3-across layouts */
+    min-width: 310px; /* Forces cards onto a clean new line if screen space drops below this width */
+    max-width: 500px; /* Keeps a lone card from blowing up or stretching across the entire monitor width */
+    
     box-shadow: 0 4px 12px rgba(0,0,0,0.03);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Matching your other hover cards */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    cursor: pointer;
   }
 
   /* The Card elevation animation on mouse hover */
