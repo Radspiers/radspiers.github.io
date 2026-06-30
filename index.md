@@ -10,6 +10,7 @@
         <a href="#about" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">About Me</a>
         <a href="#skills" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Skills</a>
         <a href="#projects" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Personal Projects</a>
+        <a href="#game-jams" style="color: #ffffff; text-decoration: none; transition: color 0.2s;">Game Jams</a>
         <a href="#education" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Education</a>
         <a href="#contact" style="color: #fff; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: opacity 0.2s;">Contact</a>
     </div>
@@ -179,7 +180,7 @@
                     <svg height="45" width="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
                 </div>
                 
-                <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; line-height: 1.3;">Artifical Intelligence & Robotics BSc with Honours</h3>
+                <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; line-height: 1.3;">Artifical Intelligence & Robotics (BSc)</h3>
                 
                 <span style="font-size: 1rem; color: #586069; font-weight: 500; margin-bottom: 16px;">University of Bedfordshire</span>
                 
