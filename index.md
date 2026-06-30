@@ -43,12 +43,12 @@
   }
 
   /* Game Jam Card Layout & Consistent Hover States */
-.jam-grid {
+  .jam-grid {
     display: grid;
-    /* Auto-fit columns: minimum 310px, max 1 fraction of space, max 3 columns across */
-    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-    gap: 30px;
-    max-width: 68rem;
+    /* Dynamically handles small screens beautifully */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px; /* Dropped from 30px to maximize internal card width space */
+    max-width: 82rem; /* Opened up from 68rem to give the 3 cards complete widescreen real estate */
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
