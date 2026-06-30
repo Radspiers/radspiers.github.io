@@ -38,17 +38,18 @@
   }
 
   /* Remove the body flex rules entirely—they are causing the ghost boxes */
-  .container-lg, .wrapper, main {
+.container-lg, .wrapper, main {
     max-width: none !important;
     padding: 0 !important;
     margin: 0 !important;
-    display: block !important; /* Force standard block layout flow */
+    display: block !important; 
   }
 
-  /* 2. Clear out any hidden margins pulling or pushing sections */
+/* Force the about section to flush with the absolute top of the window canvas */
   #about {
     margin-top: 0 !important;
-    padding-top: 100px !important; /* This creates the padding under your fixed navbar */
+    position: relative;
+    top: 0;
   }
       
   #about h1 {
@@ -216,7 +217,7 @@
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
-<div id="about" style="width: 100%; background-color: #7242f5; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 140px 0; margin: 0;">
+<div id="about" style="width: 100%; background-color: #7242f5; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 180px 0 140px 0; margin: 0;">
     
     <div style="width: 100%; max-width: 54rem; padding: 0 40px; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
         
