@@ -273,6 +273,59 @@ h1 a, h2 a, h3 a, h4 a,
 
 ... [your history text] ...
 
+<!-- Section: Personal Projects Entries -->
+<div id="projects" style="width: 100%; background-color: #fafbfc; padding: 80px 0; box-sizing: border-box; margin: 0;">
+    
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700;">Personal Projects</h2>
+
+    <div class="jam-grid">
+        
+        <div class="jam-card">
+            <div class="video-frame-holder" style="background-color: #e1e4e8;">
+                <img src="https://via.placeholder.com/640x360" alt="Project Thumbnail" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+            </div>
+            
+            <div style="padding: 24px; display: flex; flex-direction: column; flex-grow: 1; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+                
+                <h3 style="font-size: 1.35rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; line-height: 1.3;">Project Title Alpha</h3>
+                
+                <span style="font-size: 0.9rem; color: #586069; font-weight: 700; margin-bottom: 16px; display: block; letter-spacing: 0.2px;">2026</span>
+                
+                <p style="font-size: 0.95rem; color: #444d56; line-height: 1.6; margin: 0 0 24px 0; flex-grow: 1;">
+                    A core software architecture system designed to handle high-throughput telemetry data processing. Implemented an optimized memory arena allocator to reduce allocation overhead during intensive runtime ticks.
+                </p>
+                
+                <div style="margin: -4px; display: flex; flex-wrap: wrap;">
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">Systems</span>
+                    <span class="tech-tag">Optimization</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="jam-card">
+            <div class="video-frame-holder" style="background-color: #e1e4e8;">
+                <img src="https://via.placeholder.com/640x360" alt="Project Thumbnail" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+            </div>
+            
+            <div style="padding: 24px; display: flex; flex-direction: column; flex-grow: 1; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+                <h3 style="font-size: 1.35rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; line-height: 1.3;">Project Title Beta</h3>
+                <span style="font-size: 0.9rem; color: #586069; font-weight: 700; margin-bottom: 16px; display: block; letter-spacing: 0.2px;">2025</span>
+                
+                <p style="font-size: 0.95rem; color: #444d56; line-height: 1.6; margin: 0 0 24px 0; flex-grow: 1;">
+                    Custom built CI/CD build distribution pipeline designed for rapid multi-platform deployment targets. Decoupled asset cooking processes from standard engine execution paths to stabilize development iteration cycles.
+                </p>
+                
+                <div style="margin: -4px; display: flex; flex-wrap: wrap;">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Infrastructure</span>
+                    <span class="tech-tag">CI/CD</span>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
 <!-- Section: Game Jam Entries -->
 <div id="game-jams" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
     
