@@ -236,7 +236,7 @@
             <div class="video-frame-holder">
                 <!-- YouTube natively handles the Red Play, Share, and Watch Later Clock overlay widgets here -->
                 <iframe 
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/y_-oG3KM9LY?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
