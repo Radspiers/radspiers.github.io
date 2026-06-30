@@ -47,11 +47,22 @@
 
 /* Force the about section to flush with the absolute top of the window canvas */
 #about {
-    /* THE INDEPENDENT LAYOUT FORCING ELEMENT */
-    position: absolute !important;
-    top: 48px !important; /* Locks it precisely to the bottom edge of your fixed navbar */
-    left: 0 !important;
+    /* Put it back in the normal document flow */
+    position: relative !important;
+    
+    /* PULL IT UP: This physically drags the box up to swallow that ~1/2cm gap */
+    margin-top: -24px !important; 
+    
+    /* Safety reset to ensure it stays full width */
     width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+/* Ensure the next sections have clean breathing room and don't bunch up */
+#skills, #projects, #game-jams, #education, #contact  {
+    position: relative !important;
+    clear: both;
 }
       
   #about h1 {
