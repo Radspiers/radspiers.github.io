@@ -76,21 +76,19 @@
     padding-bottom: 0 !important;
   }
 
-/* Game Jam Strict Wide Grid */
+/* Game Jam Grid Configuration */
   .jam-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Divides available layout into 3 columns */
-    gap: 30px;                             /* Generous spacing between cards */
-    
-    /* ---> ADJUSTED WIDER CONTAINER BOUNDARY HERE <--- */
-    max-width: 1350px;                     /* Bumped up from 1200px to make each individual card wider */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    max-width: 1350px;
     width: 100%;
-
+    
     /* ---> ADD THESE TWO LINES TO CENTER EVERYTHING <--- */
     justify-content: center;   /* Centers the entire grid container horizontally */
     justify-items: center;     /* Centers each individual card inside its grid column track */
-      
-    margin: 0 auto;                        /* Keeps the entire row perfectly centered on screen */
+    
+    margin: 0 auto;            /* Standard block level centering fallback */
     box-sizing: border-box;
   }
 
