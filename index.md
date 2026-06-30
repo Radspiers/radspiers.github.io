@@ -175,19 +175,15 @@
         <a href="https://www.YOUR-UNIVERSITY-WEBSITE.edu" target="_blank" class="edu-card">
             <div style="display: flex; flex-direction: column; align-items: center;">
                 
-                <!-- Iconography: Academic Building Badge -->
                 <div style="color: #24292e; margin-bottom: 15px; display: flex; justify-content: center;">
                     <svg height="45" width="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
                 </div>
                 
-                <!-- Qualification Title -->
-                <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 8px 0; font-weight: 700; line-height: 1.3;">B.Sc. in Computer Science</h3>
+                <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; line-height: 1.3;">B.Sc. in Computer Science</h3>
                 
-                <!-- Institution Name -->
-                <span style="font-size: 1rem; color: #586069; font-weight: 500; margin-bottom: 12px;">University of Example</span>
+                <span style="font-size: 1rem; color: #586069; font-weight: 500; margin-bottom: 16px;">University of Example</span>
                 
-                <!-- Brief Detail/Context -->
-                <p style="font-size: 0.9rem; color: #6a737d; line-height: 1.5; margin: 0;">Focused on Software Engineering architectures, algorithmic complexity metrics, and performance optimizations.</p>
+                <span style="font-size: 1.1rem; color: #24292e; font-weight: 700; letter-spacing: 0.5px;">2010 — 2014</span>
             </div>
             <div class="edu-btn">Visit Institution</div>
         </a>
