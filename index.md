@@ -231,11 +231,15 @@
   }
 
 /* Completely hide automatic markdown header link icons on hover */
-  h1 .anchor, h2 .anchor, h3 .anchor,
-  h1 .header-link, h2 .header-link, h3 .header-link,
-  .octicon-link {
+h1 a, h2 a, h3 a, h4 a,
+  h1 a:hover, h2 a:hover, h3 a:hover,
+  [id^="anchor"], .anchor-link {
     display: none !important;
+    opacity: 0 !important;
     visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    position: absolute !important;
     pointer-events: none !important;
   }
 </style>
