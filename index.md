@@ -64,16 +64,7 @@
     position: relative !important;
     clear: both;
 }
-
-/* Completely hide automatic markdown header link icons on hover */
-  h1 .anchor, h2 .anchor, h3 .anchor,
-  h1 .header-link, h2 .header-link, h3 .header-link,
-  .octicon-link {
-    display: none !important;
-    visibility: hidden !important;
-    pointer-events: none !important;
-  }
-      
+    
   #about h1 {
     margin-top: 0 !important;
     padding-top: 0 !important;
@@ -237,6 +228,15 @@
 /* Completely hide the default Cayman theme footer text */
   .site-footer {
     display: none !important;
+  }
+
+/* Completely hide automatic markdown header link icons on hover */
+  h1 .anchor, h2 .anchor, h3 .anchor,
+  h1 .header-link, h2 .header-link, h3 .header-link,
+  .octicon-link {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
   }
 </style>
 
