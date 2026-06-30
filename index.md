@@ -28,32 +28,30 @@
 </div>
 
 <style>
-/* Wipe out top-level theme margins so sections can go edge-to-edge */
+/* 1. Global Reset: Let sections go completely edge-to-edge natively */
   html, body {
     margin: 0 !important;
     padding: 0 !important;
     width: 100% !important;
-    overflow-x: hidden; /* Safety lock to prevent horizontal scroll bars */
+    overflow-x: hidden;
+    background-color: #fafbfc;
   }
 
-body, main, .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  /* If your template uses a default Jekyll layout container wrapper, unclamp it */
+  /* Remove the body flex rules entirely—they are causing the ghost boxes */
   .container-lg, .wrapper, main {
     max-width: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    display: block !important; /* Force standard block layout flow */
   }
 
-#about {
+  /* 2. Clear out any hidden margins pulling or pushing sections */
+  #about {
     margin-top: 0 !important;
+    padding-top: 100px !important; /* This creates the padding under your fixed navbar */
   }
-    
-#about h1 {
+      
+  #about h1 {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
