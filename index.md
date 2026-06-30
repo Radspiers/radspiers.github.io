@@ -362,7 +362,7 @@
             <div class="jam-card">
                 <div class="video-frame-holder">
                     <iframe 
-                        src="https://www.youtube.com/embed/ZNAHgOnTopw?rel=0&modestbranding=1" 
+                        src="https://www.youtube.com/embed/Ruh11qRzqdg?rel=0&modestbranding=1" 
                         title="Gameplay Showcase"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         allowfullscreen>
@@ -393,7 +393,7 @@
             <div class="jam-card">
                 <div class="video-frame-holder">
                     <iframe 
-                        src="https://www.youtube.com/embed/ZNAHgOnTopw?rel=0&modestbranding=1" 
+                        src="https://www.youtube.com/embed/aYPwhwf2uF8?rel=0&modestbranding=1" 
                         title="Gameplay Showcase"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         allowfullscreen>
