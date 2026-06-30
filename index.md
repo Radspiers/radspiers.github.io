@@ -300,7 +300,7 @@
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/MQhBs2qRt4c?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
