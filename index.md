@@ -43,27 +43,29 @@
   }
 
   /* Game Jam Card Layout & Consistent Hover States */
-  .jam-grid {
-    display: flex;
+.jam-grid {
+    display: grid;
+    /* Auto-fit columns: minimum 310px, max 1 fraction of space, max 3 columns across */
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     gap: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
     max-width: 68rem;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
   }
 
-.jam-card {
+  @media (min-width: 992px) {
+    .jam-grid {
+      /* Strictly enforce maximum of 3 columns across on desktop monitors */
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Game Jam Card Structure */
+  .jam-card {
     background: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
-    
-    /* SMART GRID CALCULATION */
-    flex: 1 1 30%; /* Aims for roughly ~30% width, allowing 3-across layouts */
-    min-width: 310px; /* Forces cards onto a clean new line if screen space drops below this width */
-    max-width: 500px; /* Keeps a lone card from blowing up or stretching across the entire monitor width */
-    
     box-shadow: 0 4px 12px rgba(0,0,0,0.03);
     overflow: hidden;
     display: flex;
@@ -71,6 +73,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     cursor: pointer;
+    width: 100%; /* Grid now controls width perfectly */
   }
 
   /* The Card elevation animation on mouse hover */
