@@ -76,19 +76,15 @@
     padding-bottom: 0 !important;
   }
 
-/* Game Jam Grid Configuration */
+/* Game Jam Fluid Centered Layout */
   .jam-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    display: flex;
+    flex-wrap: wrap;          /* Allows cards to smoothly drop to the next row */
+    justify-content: center;  /* PERFECTLY CENTERS both rows, including leftover cards! */
     gap: 30px;
     max-width: 1350px;
     width: 100%;
-    
-    /* ---> ADD THESE TWO LINES TO CENTER EVERYTHING <--- */
-    justify-content: center;   /* Centers the entire grid container horizontally */
-    justify-items: center;     /* Centers each individual card inside its grid column track */
-    
-    margin: 0 auto;            /* Standard block level centering fallback */
+    margin: 0 auto;
     box-sizing: border-box;
   }
 
@@ -103,7 +99,11 @@
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    width: 100%;               /* Lets the Grid track handle the exact card width perfectly */
+    
+    /* ---> WE ASSIGN A FLEX BASIS INSTEAD OF 100% WIDTH <--- */
+    width: calc(33.333% - 20px); /* Perfectly sizes them to match your 3-column look */
+    min-width: 350px;            /* Prevents them from getting too thin on smaller screens */
+    max-width: 430px;            /* Prevents them from bloating on massive screens */
   }
 
   /* Consistent Hover State */
