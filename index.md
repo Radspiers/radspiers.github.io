@@ -42,18 +42,19 @@
     max-width: 64rem;
   }
 
-/* Game Jam Wide Breakout Grid */
+/* Game Jam Strict Wide Grid */
   .jam-grid {
-    display: flex;
+    display: grid;
+    /* Forces exactly 3 columns across, dividing the space perfectly */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 24px;
-    justify-content: center;   /* Centering the cards inside the grid row space */
-    flex-wrap: wrap;
-    width: 80vw;               /* Claims 80% of total physical monitor real estate */
-    max-width: 1200px;         /* Maximum width cutoff boundary */
+    width: 85vw;               /* Slightly widened to give each card maximum breathing room */
+    max-width: 1240px;         /* Caps it perfectly on massive 4K monitors */
     box-sizing: border-box;
-    margin: 0;                 /* Reset standard margins to let the parent flex container center it */
+    margin: 0;
   }
 
+  /* Game Jam Card Structure */
   .jam-card {
     background: #ffffff;
     border: 1px solid #e1e4e8;
@@ -64,24 +65,21 @@
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    
-    flex: 1 1 30%;
-    max-width: 380px;
-    min-width: 290px;
+    width: 100%;               /* Lets the Grid track handle the exact card width perfectly */
   }
 
-  /* Consistent Hover Elevate State */
+  /* Consistent Hover State */
   .jam-card:hover {
     transform: translateY(-6px);
-    border-color: #ff0000;      /* Subtle YouTube brand red accent */
+    border-color: #ff0000;
     box-shadow: 0 12px 24px rgba(255, 0, 0, 0.08);
   }
 
-  /* Video Frame Container aspect ratio configuration */
+  /* Video Frame Aspect Ratio */
   .video-frame-holder {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;      /* Maintains a native YouTube widescreen shape */
+    aspect-ratio: 16 / 9;
   }
 
   .video-frame-holder iframe {
