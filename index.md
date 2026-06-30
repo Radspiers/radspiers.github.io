@@ -45,13 +45,15 @@
 /* Game Jam Strict Wide Grid */
   .jam-grid {
     display: grid;
-    /* Forces exactly 3 columns across, dividing the space perfectly */
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 24px;
-    width: 85vw;               /* Slightly widened to give each card maximum breathing room */
-    max-width: 1240px;         /* Caps it perfectly on massive 4K monitors */
+    grid-template-columns: repeat(3, 1fr); /* Divides available layout into 3 columns */
+    gap: 30px;                             /* Generous spacing between cards */
+    
+    /* ---> ADJUSTED WIDER CONTAINER BOUNDARY HERE <--- */
+    max-width: 1350px;                     /* Bumped up from 1200px to make each individual card wider */
+    
+    width: 100%;
+    margin: 0 auto;                        /* Keeps the entire row perfectly centered on screen */
     box-sizing: border-box;
-    margin: 0;
   }
 
   /* Game Jam Card Structure */
