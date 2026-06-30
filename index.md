@@ -166,13 +166,13 @@
 <!-- Section: Education & Credentials -->
 <div id="education" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
     
-    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 40px; font-weight: 700; border-bottom: none;">Education & Credentials</h2>
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 40px; font-weight: 700; border-bottom: none;">Education</h2>
     
     <!-- Education Grid Row -->
     <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; max-width: 68rem; margin: 0 auto; padding: 0 20px; box-sizing: border-box;">
         
         <!-- Degree Card 1 -->
-        <a href="https://www.YOUR-UNIVERSITY-WEBSITE.edu" target="_blank" class="edu-card">
+        <a href="https://www.beds.ac.uk" target="_blank" class="edu-card">
             <div style="display: flex; flex-direction: column; align-items: center;">
                 
                 <div style="color: #24292e; margin-bottom: 15px; display: flex; justify-content: center;">
@@ -181,9 +181,9 @@
                 
                 <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; line-height: 1.3;">B.Sc. in Computer Science</h3>
                 
-                <span style="font-size: 1rem; color: #586069; font-weight: 500; margin-bottom: 16px;">University of Example</span>
+                <span style="font-size: 1rem; color: #586069; font-weight: 500; margin-bottom: 16px;">University of Bedfordshire</span>
                 
-                <span style="font-size: 1.1rem; color: #24292e; font-weight: 700; letter-spacing: 0.5px;">2010 — 2014</span>
+                <span style="font-size: 1.1rem; color: #24292e; font-weight: 700; letter-spacing: 0.5px;">2003 — 2006</span>
             </div>
             <div class="edu-btn">Visit Institution</div>
         </a>
