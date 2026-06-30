@@ -42,7 +42,18 @@
     max-width: 64rem;
   }
 
-    /* Game Jam Hover Box Structure */
+  /* Game Jam Card Layout & Consistent Hover States */
+  .jam-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
   .jam-card {
     background: #ffffff;
     border: 1px solid #e1e4e8;
@@ -54,60 +65,28 @@
     display: flex;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Matching your other hover cards */
   }
 
-  /* Interactive Hover Accent */
+  /* The Card elevation animation on mouse hover */
   .jam-card:hover {
     transform: translateY(-6px);
-    border-color: #ff0000; /* Subtle YouTube Red boundary shift */
+    border-color: #ff0000; /* Subtle YouTube brand red border highlight on hover */
     box-shadow: 0 12px 20px rgba(255, 0, 0, 0.08);
   }
 
-  .video-container {
+  /* Video Iframe Container to hold strict 16:9 widescreen orientation */
+  .video-frame-holder {
     position: relative;
     width: 100%;
     aspect-ratio: 16 / 9;
-    background-size: cover;
-    background-position: center;
-    background-color: #000000;
+    background: #000000;
   }
 
-  .video-overlay {
+  .video-frame-holder iframe {
     position: absolute;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.1);
-    transition: background 0.2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Brighten the play button opacity on hover */
-  .yt-play-btn {
-    fill: #212121;
-    fill-opacity: 0.8;
-    transition: fill 0.1s ease, fill-opacity 0.1s ease;
-  }
-  
-  .jam-card:hover .yt-play-btn {
-    fill: #ff0000;
-    fill-opacity: 1;
-  }
-
-  /* Rounded Pill Overlay Icons styling */
-  .yt-pill-overlay {
-    background: rgba(0, 0, 0, 0.65);
-    color: #ffffff;
-    padding: 6px 12px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    border-radius: 20px; /* Fluid Oval look */
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    backdrop-filter: blur(4px); /* Modern browser accent */
+    border: none;
   }
 
   .tech-tag {
@@ -246,95 +225,59 @@
 <!-- Section: Game Jam Entries -->
 <div id="game-jams" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
     
-    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-weight: 700; border-bottom: none;">Game Jam Entries & Prototypes</h2>
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-weight: 700; border-bottom: none;">Game Jams</h2>
     
     <div class="jam-grid">
         
-        <!-- Game Entry 1 (Hover Card) -->
-        <!-- Replace dQw4w9WgXcQ with your real video ID string in the setup function -->
-        <div class="jam-card" onclick="inlinePlayYouTube(this, 'y_-oG3KM9LY')">
+        <!-- Game Entry 1 (Now a fully reactive Hover Box) -->
+        <div class="jam-card">
             
-            <!-- Video Stage Area -->
-            <div class="video-container" style="background-image: url('https://img.youtube.com/vi/y_-oG3KM9LY/maxresdefault.jpg');">
-                <div class="video-overlay">
-                    
-                    <!-- Native Red YouTube Rectangular-Oval Play Button Asset -->
-                    <svg height="48" width="68" viewBox="0 0 68 48">
-                        <path class="yt-play-btn" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
-                        <polygon points="26,33 44,24 26,15" fill="#ffffff"></polygon>
-                    </svg>
-                    
-                    <!-- Left Corner: Share & Save Action Controls -->
-                    <div style="position: absolute; bottom: 10px; left: 10px; display: flex; gap: 8px;">
-                        <!-- Share button -->
-                        <div class="yt-pill-overlay">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.5l-9-8v5c-7.775.409-12.75 5.518-15 13.5 2.925-4.418 6.425-6.621 15-6.621v5.121l9-8.5z"/></svg>
-                            Share
-                        </div>
-                        <!-- Watch Later (Clock icon) -->
-                        <div class="yt-pill-overlay">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        </div>
-                    </div>
-                    
-                    <!-- Right Corner: Oval Watch on YouTube Anchor Badge -->
-                    <div style="position: absolute; bottom: 10px; right: 10px;">
-                        <div class="yt-pill-overlay">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="color: #ff0000;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                            Watch on YouTube
-                        </div>
-                    </div>
-
-                </div>
-            </a>
+            <!-- In-Place YouTube Player Wrapper -->
+            <div class="video-frame-holder">
+                <!-- YouTube natively handles the Red Play, Share, and Watch Later Clock overlay widgets here -->
+                <iframe 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1" 
+                    title="Gameplay Showcase"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
             
-            <!-- Metadata Area -->
+            <!-- Metadata & Content Wrapper -->
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Time Janitors</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | December 2020</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">FPS Time Travel Puzzle Adventure</div>
                 
+                <!-- Game Title Bold -->
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Project Neon Void</h3>
+                
+                <!-- Job Title | Release Year -->
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Solo Developer | Ludum Dare 2026</div>
+                
+                <!-- Game Genre -->
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Cyberpunk Fast-Paced Roguelike</div>
+                
+                <!-- Achievements -->
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
-                    <li>Optimized particle simulation arrays to maintain high framerate overhead boundaries.</li>
-                    <li>Integrated real-time system tracking data directly into the custom client interface.</li>
+                    <li>Optimized particle simulation arrays to maintain 60 FPS overhead boundaries on basic mobile targets.</li>
+                    <li>Integrated real-time system tracking data directly using itch.io API frameworks.</li>
                 </ul>
                 
+                <!-- Divider Line -->
                 <hr style="border: 0; border-top: 1px solid #e1e4e8; margin: 0 0 15px 0;">
                 
+                <!-- Technology Tags Footer -->
                 <div style="margin: 0 -4px; display: flex; flex-wrap: wrap;">
-                    <span class="tech-tag">C++</span>
-                    <span class="tech-tag">Unreal Engine</span>
-                    <span class="tech-tag">Perforce</span>
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">Unity Engine</span>
+                    <span class="tech-tag">HLSL Shaders</span>
+                    <span class="tech-tag">itch.io API</span>
                 </div>
+
             </div>
         </div>
 
     </div>
 </div>
-
-<!-- Inline Audio-Video Playback Automation Engine -->
-<script>
-function inlinePlayYouTube(card, videoId) {
-    const container = card.querySelector('.video-container');
-    // If an iframe is already mounted, bypass to avoid crashing standard reload patterns
-    if (container.querySelector('iframe')) return;
-    
-    // Replace the inner HTML layout with an official YouTube iframe instance configured to auto-play instantly
-    container.innerHTML = `
-        <iframe 
-            width="100%" 
-            height="100%" 
-            src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen 
-            style="position: absolute; top:0; left:0; width:100%; height:100%; border-radius: 8px 8px 0 0;">
-        </iframe>
-    `;
-}
-</script>
 
 <!-- Section: Education -->
 <div id="education" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
