@@ -225,15 +225,16 @@
 
 ... [your history text] ...
 
+<!-- Section: Game Jams -->
 <div id="game-jams" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
     
-    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-weight: 700; border-bottom: none;">Game Jam Entries & Prototypes</h2>
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-weight: 700; border-bottom: none;">Game Jams</h2>
     
     <div class="jam-grid">
         
         <div class="jam-card">
             
-            <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="video-container" style="background-image: url('https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg'); text-decoration: none !important;">
+            <a href="https://youtu.be/y_-oG3KM9LY?si=eMGnc9GZdfDbhvA9" target="_blank" class="video-container" style="background-image: url('https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg'); text-decoration: none !important;">
                 <div class="video-overlay">
                     
                     <div style="background: rgba(23, 23, 23, 0.9); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
@@ -250,11 +251,11 @@
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Project Neon Void</h3>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Time Janitors</h3>
                 
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Solo Developer | Ludum Dare 2026</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | December 2020</div>
                 
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Cyberpunk Fast-Paced Roguelike</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">FPS Time Travel Puzzle Adventure</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -265,10 +266,8 @@
                 <hr style="border: 0; border-top: 1px solid #e1e4e8; margin: 0 0 15px 0;">
                 
                 <div style="margin: 0 -4px; display: flex; flex-wrap: wrap;">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">Unity Engine</span>
-                    <span class="tech-tag">HLSL Shaders</span>
-                    <span class="tech-tag">itch.io API</span>
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">Unreal Engine</span>
                 </div>
 
             </div>
@@ -277,7 +276,7 @@
     </div>
 </div>
 
-<!-- Section: Education & Credentials -->
+<!-- Section: Education -->
 <div id="education" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
     
     <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 40px; font-weight: 700; border-bottom: none;">Education</h2>
