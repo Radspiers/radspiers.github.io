@@ -43,18 +43,20 @@
   }
 
 /* Game Jam Grid Configuration */
-  .jam-grid {
+.jam-grid {
     display: flex;
-    gap: 24px;                  /* Clean spacing gap between cards */
-    justify-content: center;    /* Center the line of items gracefully */
-    flex-wrap: wrap;            /* Safely wraps to a new row on mobile phones */
-    max-width: 82rem;           /* Expanded boundary to give 3 cards maximum wide real estate */
-    margin: 0 auto;
-    padding: 0 20px;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    /* BREAK OUT OF CAYMAN THEME MARGINS */
+    width: 80vw;                 /* Claims 80% of the user's total physical screen width */
+    max-width: 1200px;           /* Caps the maximum size so it stays controlled on mega monitors */
+    margin-left: calc(-40vw + 50%); /* Mathematical trick to break out of center-restricted containers */
+    margin-right: calc(-40vw + 50%);
     box-sizing: border-box;
   }
 
-/* Game Jam Card Structure */
   .jam-card {
     background: #ffffff;
     border: 1px solid #e1e4e8;
@@ -66,10 +68,9 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     
-    /* ADJUSTED MATH TO FORCE SINGLE-ROW DESKTOP ALIGNMENT */
-    flex: 1 1 30%;             
-    max-width: 380px;          
-    min-width: 240px;          /* Lowered from 300px to prevent the theme container from wrapping it */
+    flex: 1 1 30%;
+    max-width: 380px;
+    min-width: 290px;
   }
 
   /* Consistent Hover Elevate State */
