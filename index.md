@@ -42,7 +42,7 @@
     max-width: 64rem;
   }
 
-/* Game Jam Grid & Video Layout */
+  /* Game Jam Card Layout & Consistent Hover States */
   .jam-grid {
     display: flex;
     gap: 30px;
@@ -58,40 +58,37 @@
     background: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
-    width: 47%; /* Tiling 2-across beautifully on standard screens */
+    width: 47%;
     min-width: 320px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.03);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Matching your other hover cards */
   }
 
-  /* Video Thumbnail Container with Hover Effects */
-  .video-container {
+  /* The Card elevation animation on mouse hover */
+  .jam-card:hover {
+    transform: translateY(-6px);
+    border-color: #ff0000; /* Subtle YouTube brand red border highlight on hover */
+    box-shadow: 0 12px 20px rgba(255, 0, 0, 0.08);
+  }
+
+  /* Video Iframe Container to hold strict 16:9 widescreen orientation */
+  .video-frame-holder {
     position: relative;
     width: 100%;
     aspect-ratio: 16 / 9;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+    background: #000000;
   }
 
-  .video-overlay {
+  .video-frame-holder iframe {
     position: absolute;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.2);
-    transition: background 0.2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .video-container:hover .video-overlay {
-    background: rgba(0, 0, 0, 0.4); /* Dims slightly on hover to highlight play icon */
+    border: none;
   }
 
-  /* Tag Pill Badges at the bottom */
   .tech-tag {
     display: inline-block;
     background-color: #f1f8ff;
@@ -225,49 +222,54 @@
 
 ... [your history text] ...
 
-<!-- Section: Game Jams -->
+<!-- Section: Game Jam Entries -->
 <div id="game-jams" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
     
     <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-weight: 700; border-bottom: none;">Game Jams</h2>
     
     <div class="jam-grid">
         
+        <!-- Game Entry 1 (Now a fully reactive Hover Box) -->
         <div class="jam-card">
             
-            <a href="https://youtu.be/y_-oG3KM9LY?si=eMGnc9GZdfDbhvA9" target="_blank" class="video-container" style="background-image: url('https://img.youtube.com/vi/y_-oG3KM9LY/maxresdefault.jpg'); text-decoration: none !important;">
-                <div class="video-overlay">
-                    
-                    <div style="background: rgba(23, 23, 23, 0.9); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                    
-                    <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); color: #ffffff; padding: 4px 10px; font-size: 0.75rem; font-weight: 600; border-radius: 4px; display: flex; align-items: center; gap: 6px;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="color: #ff0000;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                        Watch on YouTube
-                    </div>
-
-                </div>
-            </a>
+            <!-- In-Place YouTube Player Wrapper -->
+            <div class="video-frame-holder">
+                <!-- YouTube natively handles the Red Play, Share, and Watch Later Clock overlay widgets here -->
+                <iframe 
+                    src="https://youtu.be/y_-oG3KM9LY?si=eMGnc9GZdfDbhvA9" 
+                    title="Gameplay Showcase"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
             
+            <!-- Metadata & Content Wrapper -->
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 
+                <!-- Game Title Bold -->
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Time Janitors</h3>
                 
+                <!-- Job Title | Release Year -->
                 <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | December 2020</div>
                 
+                <!-- Game Genre -->
                 <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">FPS Time Travel Puzzle Adventure</div>
                 
+                <!-- Achievements -->
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
                     <li>Optimized particle simulation arrays to maintain 60 FPS overhead boundaries on basic mobile targets.</li>
                     <li>Integrated real-time system tracking data directly using itch.io API frameworks.</li>
                 </ul>
                 
+                <!-- Divider Line -->
                 <hr style="border: 0; border-top: 1px solid #e1e4e8; margin: 0 0 15px 0;">
                 
+                <!-- Technology Tags Footer -->
                 <div style="margin: 0 -4px; display: flex; flex-wrap: wrap;">
                     <span class="tech-tag">C++</span>
                     <span class="tech-tag">Unreal Engine</span>
+                    <span class="tech-tag">Perforce</span>
                 </div>
 
             </div>
