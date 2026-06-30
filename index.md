@@ -43,6 +43,17 @@
     margin: 0 !important;
   }
 
+#about h1 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Target your navigation element to make sure it doesn't push down */
+  nav, .nav-bar, .navigation {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
 /* Game Jam Strict Wide Grid */
   .jam-grid {
     display: grid;
@@ -197,7 +208,7 @@
 </style>
 
 <!-- Full Screen About Me Container (Flushed to Navbar) -->
-<div id="about" style="width: 100%; background-color: #7242f5; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 80px 0; margin: 0;">
+<div id="about" style="width: 100%; background-color: #7242f5; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 140px 0; margin: 0;">
     
     <div style="width: 100%; max-width: 54rem; padding: 0 40px; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
         
