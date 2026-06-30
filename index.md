@@ -41,6 +41,50 @@
     max-width: 64rem;
   }
 
+/* Education Card Layout & Hover States */
+  .edu-card {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 30px;
+    flex: 1 1 45%; /* Dynamically balances rows if you have 1, 2, or more degrees */
+    max-width: 500px;
+    min-width: 290px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+
+  .edu-card:hover {
+    transform: translateY(-6px);
+    border-color: #28a745; /* Clean, professional green accent highlight for education achievements */
+    box-shadow: 0 12px 20px rgba(40, 167, 69, 0.12);
+  }
+
+  .edu-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #24292e;
+    color: #ffffff !important;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.2s;
+    width: 80%;
+    max-width: 200px;
+  }
+
+  .edu-card:hover .edu-btn {
+    background-color: #28a745; /* Button syncs with the green hover highlight */
+  }
+    
 /* Contact Card Styling & Animations */
   .contact-card {
     background: #ffffff;
@@ -119,9 +163,37 @@
 
 ... [your history text] ...
 
-## <a id="education"></a>Industry & Education Contributions
+<!-- Section: Education & Credentials -->
+<div id="education" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 40px; font-weight: 700; border-bottom: none;">Education & Credentials</h2>
+    
+    <!-- Education Grid Row -->
+    <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; max-width: 68rem; margin: 0 auto; padding: 0 20px; box-sizing: border-box;">
+        
+        <!-- Degree Card 1 -->
+        <a href="https://www.YOUR-UNIVERSITY-WEBSITE.edu" target="_blank" class="edu-card">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                
+                <!-- Iconography: Academic Building Badge -->
+                <div style="color: #24292e; margin-bottom: 15px; display: flex; justify-content: center;">
+                    <svg height="45" width="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                </div>
+                
+                <!-- Qualification Title -->
+                <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 8px 0; font-weight: 700; line-height: 1.3;">B.Sc. in Computer Science</h3>
+                
+                <!-- Institution Name -->
+                <span style="font-size: 1rem; color: #586069; font-weight: 500; margin-bottom: 12px;">University of Example</span>
+                
+                <!-- Brief Detail/Context -->
+                <p style="font-size: 0.9rem; color: #6a737d; line-height: 1.5; margin: 0;">Focused on Software Engineering architectures, algorithmic complexity metrics, and performance optimizations.</p>
+            </div>
+            <div class="edu-btn">Visit Institution</div>
+        </a>
 
-... [your education text] ...
+    </div>
+</div>
 
 <div id="contact" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
     
