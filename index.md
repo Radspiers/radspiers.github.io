@@ -526,7 +526,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/MQhBs2qRt4c?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/Ruh11qRzqdg?rel=0&modestbranding=1"
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
@@ -534,9 +534,9 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Malware</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2021</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">2D Puzzle Platformer</div>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Outdated</h3>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2023</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Puzzle Game</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -554,7 +554,7 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
         </div>
 
-                    <div class="jam-card">
+        <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
                     src="https://www.youtube.com/embed/ZNAHgOnTopw?rel=0&modestbranding=1" 
@@ -588,7 +588,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/Ruh11qRzqdg?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/MQhBs2qRt4c?rel=0&modestbranding=1"
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
@@ -597,8 +597,8 @@ h1 a, h2 a, h3 a, h4 a,
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Outdated</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2023</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Puzzle Game</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2021</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">2D Puzzle Platformer</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -619,7 +619,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/aYPwhwf2uF8?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/y_-oG3KM9LY?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
@@ -627,9 +627,9 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Shift Happens</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;"> Gameplay Programmer | October 2025</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Minigame Rumble</div>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Time Janitors</h3>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2020</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">FPS Time Travel Puzzle Adventure</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
