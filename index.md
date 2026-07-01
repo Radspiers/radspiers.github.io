@@ -282,7 +282,7 @@ h1 a, h2 a, h3 a, h4 a,
         
         <div class="jam-card">
             <div class="video-frame-holder" style="background-color: #e1e4e8;">
-                <img src="Pictures/PythonScreenshot.png" alt="Project Thumbnail" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                <img src="Pictures/PythonScreenshot2.png" alt="Project Thumbnail" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
             </div>
             
             <div style="padding: 24px; display: flex; flex-direction: column; flex-grow: 1; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
