@@ -572,7 +572,7 @@ h1 a, h2 a, h3 a, h4 a,
 </div>
 
 <!-- Section: Game Jams -->
-<div id="projects" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
+<div id="game-jams" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
     
     <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-weight: 700; border-bottom: none;">Game Jams</h2>
 
