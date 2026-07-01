@@ -262,9 +262,95 @@ h1 a, h2 a, h3 a, h4 a,
     </div>
 </div>
 
-## <a id="skills"></a>Technical Core
+<!-- Section: Skills -->
+<div id="skills" style="width: 100%; background-color: #ffffff; padding: 80px 0; box-sizing: border-box; margin: 0;">
+    
+    <!-- Section Header Title -->
+    <h2 style="font-size: 2rem; color: #24292e; text-align: center; margin-bottom: 50px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700;">Skills & Expertise</h2>
 
-... [your skills text] ...
+    <!-- Centered Fluid Grid Container -->
+    <div class="jam-grid">
+        
+        <!-- ==================== CARD 1: LANGUAGES ==================== -->
+        <div class="jam-card" style="aspect-ratio: 1 / 1; min-height: 280px; align-items: center; justify-content: center; text-align: center; padding: 30px; box-sizing: border-box;">
+            
+            <!-- Iconography: Code Brackets </> -->
+            <div style="color: #0366d6; margin-bottom: 20px; width: 48px; height: 48px;">
+                <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+            </div>
+            
+            <!-- Title: Bold Font -->
+            <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 12px 0; font-weight: 700; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Languages</h3>
+            
+            <!-- Description Text: Normal Font, Comma Separated -->
+            <p style="font-size: 0.95rem; color: #586069; line-height: 1.6; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+                C++, C#, Python, SQL, x86 Assembly
+            </p>
+        </div>
+
+        <!-- ==================== CARD 2: SYSTEMS ==================== -->
+        <div class="jam-card" style="aspect-ratio: 1 / 1; min-height: 280px; align-items: center; justify-content: center; text-align: center; padding: 30px; box-sizing: border-box;">
+            
+            <!-- Iconography: Engine / Processor Gear -->
+            <div style="color: #28a745; margin-bottom: 20px; width: 48px; height: 48px;">
+                <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+            </div>
+            
+            <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 12px 0; font-weight: 700; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Core Systems</h3>
+            
+            <p style="font-size: 0.95rem; color: #586069; line-height: 1.6; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+                Unreal Engine runtime, Memory Arena Allocation, Performance Profiling, Architecture Decoupling
+            </p>
+        </div>
+
+        <!-- ==================== CARD 3: INFRASTRUCTURE ==================== -->
+        <div class="jam-card" style="aspect-ratio: 1 / 1; min-height: 280px; align-items: center; justify-content: center; text-align: center; padding: 30px; box-sizing: border-box;">
+            
+            <!-- Iconography: Server / Pipeline Stack -->
+            <div style="color: #6f42c1; margin-bottom: 20px; width: 48px; height: 48px;">
+                <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="12" x2="2" y2="12"></line>
+                    <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
+                    <line x1="6" y1="16" x2="6.01" y2="16"></line>
+                    <line x1="10" y1="16" x2="10.01" y2="16"></line>
+                </svg>
+            </div>
+            
+            <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 12px 0; font-weight: 700; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Infrastructure & Tools</h3>
+            
+            <p style="font-size: 0.95rem; color: #586069; line-height: 1.6; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+                CI/CD Pipelines, Windows Tools Development, Automated Build Systems, Asset Cooking Optimization
+            </p>
+        </div>
+
+        <!-- ==================== CARD 4: COLLABORATION ==================== -->
+        <div class="jam-card" style="aspect-ratio: 1 / 1; min-height: 280px; align-items: center; justify-content: center; text-align: center; padding: 30px; box-sizing: border-box;">
+            
+            <!-- Iconography: Users / Studio Collaboration -->
+            <div style="color: #e36209; margin-bottom: 20px; width: 48px; height: 48px;">
+                <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+            </div>
+            
+            <h3 style="font-size: 1.25rem; color: #24292e; margin: 0 0 12px 0; font-weight: 700; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Methodology</h3>
+            
+            <p style="font-size: 0.95rem; color: #586069; line-height: 1.6; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+                Cross-Department Tools, Developer Productivity, QA Automation pipelines, AAA Studio Delivery
+            </p>
+        </div>
+
+    </div>
+</div>
 
 <!-- Section: Professional Experience -->
 <div id="work" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
