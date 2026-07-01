@@ -288,7 +288,7 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Fable III</h3>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Suicide Squad: Kill the Justice League</h3>
                 <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Quality Assurance | February 2010 - April 2011</div>
                 <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Action Adventure</div>
                 
@@ -317,7 +317,7 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">FIFA 12</h3>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Batman: Arkham VR</h3>
                 <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA  | April 2011 - September 2011</div>
                 <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
                 
@@ -348,7 +348,7 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">FIFA 13</h3>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Batman: Arkham Knight</h3>
                 <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA | October 2011 - September 2012</div>
                 <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
                 
@@ -379,7 +379,7 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">FIFA 14</h3>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Strike Suit Zero: Director's Cut</h3>
                 <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA | October 2012 - December 2013</div>
                 <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
                 
