@@ -266,10 +266,6 @@ h1 a, h2 a, h3 a, h4 a,
 
 ... [your skills text] ...
 
-## <a id="projects"></a>Featured Engineering Sandbox
-
-... [your projects text] ...
-
 <!-- Section: Professional Experience -->
 <div id="work" style="margin-top: 80px; padding: 60px 0; border-top: 1px solid #e1e4e8;">
     
