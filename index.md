@@ -280,7 +280,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/y_-oG3KM9LY?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/BvuIHSEX6x8?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
