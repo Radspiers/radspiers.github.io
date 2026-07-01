@@ -280,7 +280,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/BvuIHSEX6x8?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/3QHZxzTPsco?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
@@ -289,8 +289,8 @@ h1 a, h2 a, h3 a, h4 a,
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Suicide Squad: Kill the Justice League</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Quality Assurance | February 2010 - April 2011</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Action Adventure</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Quality Assurance | October 2016 - December 2024</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Live Service</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -318,8 +318,8 @@ h1 a, h2 a, h3 a, h4 a,
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Batman: Arkham VR</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA  | April 2011 - September 2011</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Senior QA for AI | June 2015 - October 2016</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">VR Superhero Adventure</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -340,7 +340,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/ZNAHgOnTopw?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/wsf78BS9VE0?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
@@ -349,8 +349,8 @@ h1 a, h2 a, h3 a, h4 a,
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Batman: Arkham Knight</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA | October 2011 - September 2012</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">QA for AI | April 2014 - June 2015</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Superhero Action Adventure</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -371,7 +371,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/Ruh11qRzqdg?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/IjvKWtefU9c?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
@@ -380,8 +380,8 @@ h1 a, h2 a, h3 a, h4 a,
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Strike Suit Zero: Director's Cut</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA | October 2012 - December 2013</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Senior Compliance QA | December 2013 - March 2013</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Space Mecha Action</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
