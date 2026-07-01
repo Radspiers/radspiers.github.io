@@ -289,7 +289,7 @@ h1 a, h2 a, h3 a, h4 a,
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Suicide Squad: Kill the Justice League</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Quality Assurance | October 2016 - December 2024</div>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Automation Engineer | October 2016 - December 2024</div>
                 <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Rocksteady Studios</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
@@ -309,7 +309,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/An-E0GOKwvA?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/SwdZvJfxqtE?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
