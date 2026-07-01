@@ -290,7 +290,7 @@ h1 a, h2 a, h3 a, h4 a,
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
                 <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Fable III</h3>
                 <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Quality Assurance | February 2010 - April 2011</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Action Adventure with Humour</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Action Adventure</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -309,7 +309,7 @@ h1 a, h2 a, h3 a, h4 a,
         <div class="jam-card">
             <div class="video-frame-holder">
                 <iframe 
-                    src="https://www.youtube.com/embed/MQhBs2qRt4c?rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/An-E0GOKwvA?rel=0&modestbranding=1" 
                     title="Gameplay Showcase"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
@@ -317,9 +317,9 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Malware</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2021</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">2D Puzzle Platformer</div>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">FIFA 12</h3>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA  | April 2011 - September 2011</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -348,9 +348,9 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">The Banquet Below</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2022</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">FPS Mystery Puzzle Game</div>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">FIFA 13</h3>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA  | October 2011 - September 2012</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -379,9 +379,9 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Outdated</h3>
-                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Generalist Programmer | September 2023</div>
-                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Third Person Puzzle Game</div>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">FIFA 14</h3>
+                <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;">Authencity QA  | October 2012 - December 2013</div>
+                <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Sports Footlball Simulation</div>
                 
                 <ul style="padding-left: 20px; color: #24292e; font-size: 0.9rem; line-height: 1.6; margin: 0 0 25px 0; flex-grow: 1;">
                     <li>Designed and shipped a complete custom arcade movement system within 48 hours.</li>
@@ -410,7 +410,7 @@ h1 a, h2 a, h3 a, h4 a,
             </div>
             
             <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
-                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Shift Happens</h3>
+                <h3 style="font-size: 1.4rem; color: #24292e; margin: 0 0 4px 0; font-weight: 700; border-bottom: none;">Strike Suit Zero: Director's Cut</h3>
                 <div style="font-size: 0.9rem; color: #586069; font-weight: 500; margin-bottom: 4px;"> Gameplay Programmer | October 2025</div>
                 <div style="font-size: 0.9rem; color: #586069; font-style: italic; margin-bottom: 20px;">Minigame Rumble</div>
                 
